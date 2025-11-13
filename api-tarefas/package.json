@@ -1,0 +1,17 @@
+{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}

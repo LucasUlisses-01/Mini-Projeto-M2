@@ -1,0 +1,91 @@
+/* estilo geral da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Área do input + botão */
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Lista de tarefas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botão de remover */
+.remover {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remover:hover {
+    background-color: #e60000;
+}
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
